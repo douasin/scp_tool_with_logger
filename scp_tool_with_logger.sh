@@ -109,7 +109,7 @@ if [ -z $1 ]; then                  # 檢查有沒有輸入參數
     errorLog "請輸入ok檔名"
 fi
 REMOTE_TOKEN="${1}${OK_EXT}"        # 檔名加上 OK_EXT  (.ok)
-REMOTE_FILE="${1}${DAT_EXT}"        # 檔名日噗 DAT_EXT (.dat)
+REMOTE_FILE="${1}${DAT_EXT}"        # 檔名加上 DAT_EXT (.dat)
 
 logger "scp tool 啟動"              #敲鑼打鼓
 
